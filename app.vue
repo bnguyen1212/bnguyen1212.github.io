@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import HorizontalNavigation from '~/components/HorizontalNavigation.vue';
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
-</template>
+    <HorizontalNavigation></HorizontalNavigation>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </template>
+  
