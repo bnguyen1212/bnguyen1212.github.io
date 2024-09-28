@@ -7,14 +7,10 @@ const links = [{
   icon: 'i-hugeicons:computer-programming-01',
 }, {
   label: '',
-  icon: 'i-hugeicons:user-circle-02',
-}, {
-  label: '',
   icon: 'i-hugeicons:mail-01',
 }]
 </script>
 
 <template>
-  <UHorizontalNavigation :links="links" class="border-b border-gray-200 dark:border-gray-800" />
+  <UHorizontalNavigation :links="links" class="flex justify-center w-screen mt-4 border-b border-gray-200 dark:border-gray-800" />
 </template>
-
