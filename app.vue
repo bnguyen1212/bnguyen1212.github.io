@@ -3,7 +3,7 @@
         <HorizontalNavigation></HorizontalNavigation>
     </div>
     <div class="flex justify-center mt-8">
-        <Avatar></Avatar>
+        <Avatar src="/avatar.jpg" size="300px"></Avatar>
     </div>
     <NuxtLayout>
       <NuxtPage />
