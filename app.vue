@@ -2,12 +2,7 @@
     <div>
         <HorizontalNavigation></HorizontalNavigation>
     </div>
-    <div class="flex justify-center mt-8">
-        <Avatar src="/avatar.jpg" size="300px"></Avatar>
-    </div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <NuxtPage />
   </template>
 
 <script setup lang="ts">
