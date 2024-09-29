@@ -9,7 +9,3 @@
 import HorizontalNavigation from '~/components/HorizontalNavigation.vue';
 import Avatar from './components/Avatar.vue';
 </script>
-
-<style>
-
-</style>

@@ -2,9 +2,11 @@
 const links = [{
   label: '',  
   icon: 'i-hugeicons:home-03',
+  to: '/'
 }, {
   label: '',
   icon: 'i-hugeicons:computer-programming-01',
+  to: '/projects'
 }, {
   label: '',
   icon: 'i-hugeicons:mail-01',
